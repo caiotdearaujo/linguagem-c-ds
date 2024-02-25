@@ -1,0 +1,7 @@
+Ao fim da função main(), é necessário fechar o bloco de código com "}", algo que não ocorreu após a linha 7.
+
+Mensagem de erro do terminal:
+test.c: In function ‘main’:
+test.c:7:9: error: expected declaration or statement at end of input
+    7 |         return 0;
+      |         ^~~~~~

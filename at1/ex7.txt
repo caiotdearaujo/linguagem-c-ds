@@ -1,0 +1,6 @@
+O erro se encontra na segunda linha, na declaração da função Main(), cujo nome deve ser escrito com a primeira letra minúscula para que o interpretador consiga chamá-la para iniciar o código.
+
+Mensagem de erro do terminal:
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): referência não definida para "main"
+collect2: error: ld returned 1 exit status

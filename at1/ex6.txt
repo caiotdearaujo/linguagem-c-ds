@@ -1,0 +1,6 @@
+O erro se encontra na primeira linha, onde omitiu-se o "#" do "include".
+
+Mensagem de erro do terminal:
+test.c:1:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+    1 | include <stdio.h>
+      |       ^

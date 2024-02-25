@@ -1,0 +1,10 @@
+O erro ocorre na linha 4, onde era esperado ";" no fim da linha.
+
+Mensagem de erro do terminal:
+test.c: In function ‘main’:
+test.c:4:64: error: expected ‘;’ before ‘return’
+    4 |         printf("Escola Técnica Estadual Porto Digital (ETEPD)")
+      |                                                                ^
+      |                                                                ;
+    5 |         return 0;
+      |         ~~~~~~

@@ -1,0 +1,11 @@
+O erro ocorre na linha 4, onde é utilizada a função print, que não existe na linguagem C. A função utilizada para imprimir-se mensagens no terminal é printf().
+
+Mensagem de erro do terminal:
+test.c: In function ‘main’:
+test.c:4:9: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+    4 |         print("Escola Técnica Estadual Porto Digital (ETEPD)");
+      |         ^~~~~
+      |         printf
+/usr/bin/ld: /tmp/cc1qtMss.o: na função "main":
+test.c:(.text+0x18): referência não definida para "print"
+collect2: error: ld returned 1 exit status
